@@ -1,0 +1,7 @@
+{
+  "name": "health-hub",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
