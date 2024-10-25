@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <ion-header>
+    <ion-header class="ion-no-border">
       <ion-toolbar>
         <ion-title>Tab 3</ion-title>
       </ion-toolbar>
@@ -18,6 +18,12 @@
 </template>
 
 <script setup lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import {
+  IonPage,
+  IonHeader,
+  IonToolbar,
+  IonTitle,
+  IonContent,
+} from "@ionic/vue";
+import ExploreContainer from "@/components/ExploreContainer.vue";
 </script>
